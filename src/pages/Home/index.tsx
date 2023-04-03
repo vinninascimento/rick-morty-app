@@ -59,7 +59,7 @@ export function Home(): JSX.Element {
 
   return (
     <div>
-      <Header imgButton={heartImg} toLink={"/favorites"}>
+      <Header imgButton={heartImg} toLink={"/home/favorites"}>
         Favoritos
       </Header>
 
